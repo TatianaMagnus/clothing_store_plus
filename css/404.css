@@ -1,0 +1,31 @@
+#titulo {
+    display: block;
+    width: 100%;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 0;
+    font-size: 2vh;
+    height: 121.76560121765601vh;
+}
+
+
+    
+
+
+ .clique {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 1.8vh;
+    margin-top: 0%;
+}
+
+
+.clique:hover {
+    transition: color 0.3s;
+    color: white;
+    position: relative;
+    bottom: 0.3vh;
+}

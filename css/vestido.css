@@ -1,0 +1,86 @@
+
+
+#rightColumn { 
+    float: right;
+    height: 100%;
+    width: 50vw;
+    position: relative;
+    margin:auto;
+    top: 20vh;
+
+
+
+}
+
+.tituloright {
+    font-size: 6vh;
+
+}
+
+.referencia {
+    margin: auto;
+    text-align: center;
+    position: relative;
+    left: -22vh;
+    font-size: 2vh;
+}
+
+.tamanho {
+    position: relative;
+    display: inline;
+    border: solid 0.1vh;
+    padding: 0.5vh;
+    background-color: white;
+}
+
+.todostamanhos {
+    position: relative;
+    margin: 2vh;
+    left: 11.65vw;
+}
+
+.precoright {
+    position: relative;
+    left: -11vw;
+    top: 5vw
+}
+
+.comprar {
+position: relative;
+top: 20vh;
+left: 2.2vw;
+font-size: 5vh;
+width: 20vw;
+text-align: center;
+border: solid 0.1vh;
+padding: 1vh;
+background-color:white;
+}
+
+.comprar:hover {
+background-color: rgb(240, 161, 171) ;
+transition: 200ms;
+
+}
+.favoritar:hover {
+    background-color: rgb(240, 161, 171) ;
+    transition: 200ms;
+}
+
+.favoritar {
+    position: relative;
+    top: 22vh;
+    left: 2.2vw;
+    font-size: 3vh;
+    width: 20vw;
+    text-align: center;
+    border: solid 0.1vh;
+    padding: 1vh;
+    background-color: white;
+    }
+
+
+    
+.semdeco{text-decoration: none;
+color: black;}
+

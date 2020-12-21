@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 200vh;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black;
+    width: 85vw;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    left: 7.5vw;
+    
+
+    }
+    main {
+        margin: 0;
+        padding: 0;
+        width: 85vw;
+        float: initial;
+        min-height: 135vh ;
+
+    }
+
+    header { float: right;
+        width: 83.5vw;
+        border-bottom: solid 0.2vh;
+        padding: 1.5vh;
+        padding-top: 0;
+        position: relative;
+        margin-bottom: 2vh;
+
+    }
+    
+    .menu {
+        text-decoration: none;
+        margin: 0 1vh 1vh 1vh;
+        color:black;
+        float: left;
+        font-size: 2.5vh;
+    }
+
+    .menu:hover {
+        transition: color 0.3s;
+        color: white;
+        position: relative;
+        bottom: 0.3vh;
+        text-shadow:1vh 1vh 1vh rgb(233, 107, 139) ;
+        transition: 200ms;
+        
+        
+    }
+    
+    .icons {
+        height: 2vh;;
+        margin-right: 1vh;
+        position: relative;
+        
+    
+
+    }
+    
+
+    
+
+   
+
+    
+    .storeName {
+        text-decoration: none;
+        color: white;
+        font-size: 4vh;
+        margin-top: 0;
+        text-shadow: 1vh 1vh 1vh rgb(233, 107, 139);
+        font-family: 'Dancing Script', cursive;
+        
+        
+    }
+    
+    #first {
+        margin-left: 0;
+    }
+    
+    .search {
+        float: right;
+        
+    }
+    
+    #search {
+        float: right;
+        height: 2.5vh;
+        width: 30vw;
+    }
+
+    footer {
+        float: right;
+        width: 83.5vw;
+        border-top: solid 0.2vh;
+        text-align: center;
+        padding: 1.5vh;
+
+
+    }
+
+    .aviso {
+        text-align: center;
+        font-size: 3vhvh;
+        position: relative;
+        margin: auto;
+        top: 1vh;
+    }
+    
+    .redes_sociais {
+        color: black;
+        text-decoration: none;
+        display: inline;
+        margin: 2vh;
+        width: 45vw;
+        position: relative;
+        top: 1vh;
+        right: 32vw;
+        opacity: 1;
+
+        
+    }
+
+    .redes_sociais:hover {
+        position: relative;
+        bottom: 0.3vh;
+        transition: 0.3s;
+        text-shadow:1vh 1vh 1vh rgb(233, 107, 139) ;
+        transition: 200ms;
+        
+    
+
+    
+
+        
+    }
+    
+    .abertura {
+        height: 0;
+        width: 100vw;
+        background: rgb(240, 161, 171);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: -7.5vw;
+        z-index: 5;
+        opacity: 0;
+        text-decoration: none;
+        color: white;
+        font-size: 4vh;
+        margin-top: 0;
+        text-shadow: 1vh 1vh 1vh rgb(233, 107, 139);
+        font-family: 'Dancing Script', cursive;
+        animation-duration: 5s;
+        animation-name: sumir;
+        }
+
+              
+    @keyframes sumir {
+    from {
+        opacity: 10;
+                  height: 50vw;
+                }
+              
+                to {
+                  opacity: 0;
+                  height: 0;
+            
+                }
+                
+              }
+                
+    
+
+
+    

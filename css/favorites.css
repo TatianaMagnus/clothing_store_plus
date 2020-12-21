@@ -1,0 +1,14 @@
+.ircomprar {position: relative;
+top: 20vh;
+left: 15vw;
+font-size: 5vh;
+width: 20vw;
+text-align: center;
+border: solid 0.1vh;
+padding: 1vh;
+background-color:white;}
+
+.ircomprar:hover {
+    background-color: rgb(240, 161, 171);
+    transition: 200ms;
+}

@@ -1,0 +1,44 @@
+.titulo {
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    margin-top: 5vh;
+    width: 30vw;
+}
+
+form div + div {
+    margin-top: 2vh
+}
+
+label {
+    display: inline-block;
+    text-align: right;
+    font-size: 2.5vh;
+}
+
+input, textarea {
+
+    font: 2vh 'roboto';
+    width: 30vw;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid rgb(214, 122, 150);
+}
+
+input:focus, textarea:focus {
+    border-color:rgb(214, 122, 150);
+}
+
+textarea {
+    vertical-align: top;
+    height: 20vh;
+    resize: vertical;
+}
+
+.button {
+    position: relative;
+    left: 21.5vh;
+    top: 1vh;
+}
